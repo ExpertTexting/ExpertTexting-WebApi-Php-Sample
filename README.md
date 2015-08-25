@@ -15,9 +15,9 @@ This project consists of two files
   
 Index.php is included just to show the implementation of the "expt.php" class. "Expt.php" has the following methods in its class : 
 
-1. Send()            // This method is used to send text sms.
-2. SendUnicode()     // This method is used to send unicode sms.
-3. QueryBalance()    // This method is used to query user account balance.
+1. Send()            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// This method is used to send text sms.
+2. SendUnicode()     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// This method is used to send unicode sms.
+3. QueryBalance()    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// This method is used to query user account balance.
   
 ## Usage
 TODO: Write usage instructions
