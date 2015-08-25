@@ -34,10 +34,10 @@ Now in "Index.php", you need to change the following lines with your pre-registe
 
 ```
 // Sender of the SMS – PreRegistered through the Customer Area.
-$expertTexting->from    = '';
+$expertTexting->from    = 'Sender Number Here';
 
-// The full International mobile number of the without + or 00
-$expertTexting->to      = '923453116605';
+// The full international mobile number without + or 00
+$expertTexting->to      = 'Sample Number Here';
 
 // The SMS content.
 $expertTexting->msgtext = 'Message Text Here'; 	
