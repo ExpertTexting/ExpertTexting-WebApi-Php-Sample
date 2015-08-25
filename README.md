@@ -21,6 +21,42 @@ Index.php is included just to show the implementation of the "expt.php" class. "
 3. QueryBalance()    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// This method is used to query user account balance.
   
 ## Usage
-TODO: Write usage instructions
+Before using this sample project, you need to edit these files with your personal configuration. These configuration includes like adding your account details so that you can call these APIs.
 
+In "Expt.php" class, you need to change the following lines with your own username, password and api key.
 
+```
+public $username = 'ENTER YOUR USERNAME HERE';  
+public $password = 'ENTER YOUR PASSWORD HERE';
+public $apikey = 'ENTER YOUR API KEY HERE';
+```
+Now in "Index.php", you need to change the following lines with your pre-registered number, desired destination number and the message text that you want to send. 
+
+```
+// Sender of the SMS – PreRegistered through the Customer Area.
+$expertTexting->from    = '';
+
+// The full International mobile number of the without + or 00
+$expertTexting->to      = '923453116605';
+
+// The SMS content.
+$expertTexting->msgtext = 'Message Text Here'; 	
+```
+
+Now there are three calls in the "Index.php" file, please uncomment the call as per your liking: 
+
+```
+// Use the below method to sent simple text message.
+// Uncomment the line below to run this call.
+//echo $expertTexting->send();
+
+// Use the below method to sent Send multilangual SMS method that have unicode characters in them.
+// Uncomment the line below to run this call.
+//echo $expertTexting->sendUnicode();
+
+// Use the below method to query your account balance
+// The below call is uncommented thus it will run on page execution.
+echo $expertTexting->QueryBalance();
+```
+
+Now that is all. You see, that is how simple it is to use ExpertTexting API in PHP language.
