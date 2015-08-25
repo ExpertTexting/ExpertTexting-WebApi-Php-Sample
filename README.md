@@ -10,7 +10,8 @@ By using this sample project, users will be able to make calls programmatically 
 
 ## Description
 This project consists of two files 
-1 Index.php 
+
+1. Index.php 
 2. Expt.php
   
 Index.php is included just to show the implementation of the "expt.php" class. "Expt.php" has the following methods in its class : 
