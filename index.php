@@ -7,10 +7,10 @@ require_once('expt.php');
 // Creating an object of ExpertTexting SMS Class.
 $expertTexting = new experttexting_sms(); 
 
-// Sender of the SMS – PreRegistered through the Customer Area.
+// Sender of the SMS â€“ PreRegistered through the Customer Area.
 $expertTexting->from    = 'Sender Number Here';
 
-// The full International mobile number of the without + or 00
+// The full international mobile number without the + or 00
 $expertTexting->to      = 'Sample Number Here';
 
 // The SMS content.
