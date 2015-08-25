@@ -4,7 +4,9 @@
 
 
 # Sample PHP Project For ExpertTexting API
-This is a documentation file for the sample PHP project for ExpertTexting API. In this project, you get to know how to use ExperTexting API in PHP. By using this sample project, users will be able to make calls programmatically in PHP language through ET's API
+This is a documentation file for the sample PHP project for ExpertTexting API. In this project, you get to know how to use ExperTexting API in PHP.
+
+By using this sample project, users will be able to make calls programmatically in PHP language through ET's API
 
 ## Description
 This project consists of two files 
