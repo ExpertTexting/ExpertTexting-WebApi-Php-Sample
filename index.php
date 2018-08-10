@@ -8,19 +8,19 @@ require_once('expt.php');
 $expertTexting = new experttexting_sms(); 
 
 // Sender of the SMS – PreRegistered through the Customer Area.
-$expertTexting->from    = 'Sender Number Here';
+$expertTexting->from    = 'DEFAULT'; // USE DEFAULT IN MOST CASES.
 
 // The full international mobile number without the + or 00
 $expertTexting->to      = 'Sample Number Here';
 
 // The SMS content.
-$expertTexting->msgtext = 'Message Text Here'; 		
+$expertTexting->msgtext = urlencode('Message Text Here'); 		
 
 // Use the below method to sent simple text message.
 // Uncomment the line below to run this call.
 //echo $expertTexting->send();
 
-// Use the below method to sent Send multilangual SMS method that have unicode characters in them.
+// Use the below method to sent Send multilangual SMS (Arabic or any other language) method that have unicode characters in them.
 // Uncomment the line below to run this call.
 //echo $expertTexting->sendUnicode();
 
