@@ -1,7 +1,7 @@
 # 
 
 
-
+Updated to use REST API with JSON Return
 
 # Sample PHP Project For ExpertTexting API
 This is a documentation file for the sample PHP project for ExpertTexting API. In this project, you get to know how to use ExpertTexting API in PHP.
@@ -34,13 +34,13 @@ Now in "Index.php", you need to change the following lines with your pre-registe
 
 ```
 // Sender of the SMS – PreRegistered through the Customer Area.
-$expertTexting->from    = 'Sender Number Here';
+$expertTexting->from    = 'DEFAULT';  // USE DEFAULT IN MOST CASES.
 
 // The full international mobile number without + or 00
 $expertTexting->to      = 'Sample Number Here';
 
 // The SMS content.
-$expertTexting->msgtext = 'Message Text Here'; 	
+$expertTexting->msgtext = urlencode('Message Text Here'); 	
 ```
 
 Now there are three calls in the "Index.php" file, please uncomment the call as per your liking: 
